@@ -38,6 +38,12 @@ Need an application or an email written? Just ask. Jarvis will use Groq AI to dr
 ### 8. **Multithreaded Interactive GUI**
 Built with **PyQt5**, the modern interface continuously runs on a separate thread, providing real-time feedback of the assistant's state (`Listening...`, `Thinking...`, `Searching...`, `Answering...`) without blocking the core AI execution.
 
+### 9. **Multi-Tasking (Multi-Command Execution)**
+Jarvis can handle multiple commands in a single prompt! You can say things like *"Open Facebook, open Instagram and close WhatsApp"* and the intelligent Decision-Making Model will split and execute these tasks perfectly.
+
+### 10. **Context Memory & History Awareness**
+Jarvis maintains a dynamic memory of your current session. It reads and writes to a local chat log (`ChatLog.json` / `Database.data`) to keep track of the conversation history. This means you can ask follow-up questions and Jarvis will remember the context seamlessly.
+
 ---
 
 ## 🛠️ Architecture
